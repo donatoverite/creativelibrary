@@ -7,23 +7,19 @@
       "start": "node node_modules/http-server/http-server node_modules/http-server"
     },
     "dependencies": {
-      "express": "^4.13.3"
+      "http-server": "0.11.1"
     },
     "engines": {
       "node": "4.0.0"
     },
     "repository": {
       "type": "git",
-      "url": "https://github.com/heroku/node-js-sample"
+      "url": "https://github.com/donatoverite/creativewebonline"
     },
     "keywords": [
-      "node",
-      "heroku",
-      "express"
     ],
-    "author": "Mark Pundsack",
+    "author": "Verite Donato",
     "contributors": [
-      "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
     ],
     "license": "MIT"
   }
