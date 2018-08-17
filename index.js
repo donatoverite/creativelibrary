@@ -13,7 +13,7 @@ app.get('/', function(req, res) {
 
     // ejs render automatically looks in the views folder
 
-    res.sendFile(__dirname + '/app/index.html');
+    res.sendFile(__dirname + '/index.html');
 });
 
 app.listen(port, function() {
