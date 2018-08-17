@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.get('/', function(req, res) {
 
     // ejs render automatically looks in the views folder
-    res.render('index');
+    res.render('index.html');
 });
 
 app.listen(port, function() {
