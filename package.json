@@ -12,7 +12,7 @@
     "command"
   ],
   "scripts": {
-    "start": "node ./bin/http-server",
+    "start": "node ./lib/http-server",
     "pretest": "common bin/http-server lib/ test",
     "test": "vows --spec --isolate"
   },
