@@ -4,10 +4,10 @@
   "description": "creativelibrary",
   "main": "index.js",
   "scripts": {
-    "start": "node tiny-server/index.js web"
+    "start": "node node_modules/tiny-server/bin/index web"
   },
   "dependencies": {
-    "tiny-server": "^1.0.2"
+
   },
   "engines": {
     "node": "4.0.0"
@@ -16,8 +16,10 @@
     "type": "git",
     "url": "https://github.com/donatoverite/creativelibrary"
   },
-  "keywords": [],
+  "keywords": [
+  ],
   "author": "Verite Donato",
-  "contributors": [],
+  "contributors": [
+  ],
   "license": "MIT"
 }
